@@ -11,6 +11,8 @@ for(const btn of allbtn){
             return;
         }
         btn.setAttribute('disabled', true);
+        btn.style.backgroundColor = "green"
+        btn.style.color = "white"
        // console.log("paisi");
         count = count + 1 ;
         console.log(count);
