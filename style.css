@@ -1,0 +1,36 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.container{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    line-height: 23px;
+}
+.banner-text{
+    position: absolute;
+    top: 120px;
+    margin-left: 20px;
+    color:  #f3f0f0;
+text-align: center;
+height: 632px;
+width: 390px;
+font-style: normal;
+margin-bottom: 0;
+
+}
+/* .po{
+    margin-top: 0px;
+    margin-bottom: 5px;
+} */
+.fo{
+    font-style: normal;
+    line-height: 5px;
+    margin-top: 1px;
+}
+.li{
+    display: flex;
+}
